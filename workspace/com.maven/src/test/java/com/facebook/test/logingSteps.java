@@ -52,7 +52,7 @@ public class logingSteps {
 		String password =  data.getProperty("password");
 		System.out.println(password);
 		System.out.println(login_Obj.password.getAttribute("class"));
-		
+		System.out.println(login_Obj.password.getAttribute("class"));
 	    user.type(driver, login_Obj.password,password);
 	    user.click(login_Obj.signInButton);
 	    try{
