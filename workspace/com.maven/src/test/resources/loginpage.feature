@@ -1,6 +1,7 @@
 Feature: loging in facebook
 
   Scenario: Logging
+   Given The url is provided  
     Then The url is provided
     Then enter id
       | id                         |

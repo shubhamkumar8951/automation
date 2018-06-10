@@ -5,12 +5,15 @@ import java.util.Properties;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+
+//import org.openqa.selenium.By;
+//import org.openqa.selenium.WebDriver;
+//import org.openqa.selenium.WebElement;
 
 import com.facebook.pageObject.login;
 import com.facebook.utilities.PropertiesFile;
 import com.facebook.utilities.action;
-import com.sun.jna.platform.win32.SetupApi;
+//import com.sun.jna.platform.win32.SetupApi;
 
 import cucumber.api.DataTable;
 import cucumber.api.Scenario;

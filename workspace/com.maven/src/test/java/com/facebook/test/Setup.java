@@ -56,7 +56,7 @@ public class Setup {
 		
 			 options.addArguments("--disable extension");
 			 
-			 options.setExperimentalOption("useAutomationExtension", false);
+			 //options.setExperimentalOption("useAutomationExtension", false);
 			 options.addArguments("--start-maximized");
 			 options.addArguments("disable-infobars");
 			 options.addArguments("no-sandbox");
