@@ -28,3 +28,4 @@ Feature: Alert and Models operation
     Then click on generate file button
     Then click on Download button
     Then verify entered text "test" is present in downloaded text file
+

@@ -30,7 +30,6 @@ public class baseClass {
 	public static WebDriverWait wait;
 	
 	
-	
 	protected static WebDriver getDriverInstance(DesiredCapabilities c) {
 		driver = new ChromeDriver();
 		setJs(((JavascriptExecutor) driver));

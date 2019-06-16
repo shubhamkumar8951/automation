@@ -38,6 +38,7 @@ public class loginpagePageObject extends baseClass{
 	public List<WebElement> messengerIcon(){
 		List<WebElement> el = driver.findElements(By.xpath("//a[contains(@class,'button-activator')]//div"));
 		return el;
+		
 	}
 	
 	@FindBy(how = How.XPATH, using = "//div[contains(@class,'bg-activator')]//*[local-name() = 'svg'][contains(@class,'svg-close')]")
@@ -47,5 +48,4 @@ public class loginpagePageObject extends baseClass{
 		WebElement e1 = driver.findElement(By.xpath("//div[@class='circleicons']/following-sibling::h4[text()='"+s1+"']"));
 		return e1;
 	}
-	
 }

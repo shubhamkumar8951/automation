@@ -16,8 +16,7 @@ public class Practice_Test {
 		Date dt = orgnlFor.parse(st);
 		DateFormat expctd = new SimpleDateFormat("MMMM d yy");
 		System.out.println(expctd.format(dt));
-		
-		
+		System.out.println("testing");
 		
 	}
 
