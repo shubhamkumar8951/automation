@@ -1,0 +1,2 @@
+input=
+BrowserChoice= Chrome
