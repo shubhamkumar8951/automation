@@ -38,7 +38,6 @@ public class loginpagePageObject extends baseClass{
 	public List<WebElement> messengerIcon(){
 		List<WebElement> el = driver.findElements(By.xpath("//a[contains(@class,'button-activator')]//div"));
 		return el;
-		
 	}
 	
 	@FindBy(how = How.XPATH, using = "//div[contains(@class,'bg-activator')]//*[local-name() = 'svg'][contains(@class,'svg-close')]")

@@ -220,6 +220,7 @@ public class reusableCodes extends baseClass {
 	public int totalOption(String xpath) {
 		List<WebElement> el = driver.findElements(By.xpath(xpath));
 		int i = el.size();
+		System.out.println(i);
 		return i;
 	}
 
